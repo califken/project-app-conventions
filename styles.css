@@ -1,0 +1,78 @@
+#result,
+.card{
+ padding:20px; 
+}h1 {
+  font-family: Impact;
+}
+body {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#52d611+0,299a0b+100 */
+background: rgb(82,214,17); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(82,214,17,1) 0%, rgba(41,154,11,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(82,214,17,1) 0%,rgba(41,154,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(82,214,17,1) 0%,rgba(41,154,11,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52d611', endColorstr='#299a0b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+img {
+  width: 100%;
+}
+/* Syntax highlighting for JSON objects */
+.json-body {
+  margin: 10px 20px;
+}
+
+ul.json-dict,
+ol.json-array {
+  list-style-type: none;
+  margin: 0 0 0 1px;
+  border-left: 1px dotted #ccc;
+  padding-left: 2em;
+  font: 13px/18px monospace;
+
+  -webkit-font-smoothing: antialiased;
+}
+.json-string {
+  color: #0b7500;
+}
+.json-literal {
+  color: #1a01cc;
+  font-weight: bold;
+}
+
+/* Toggle button */
+a.json-toggle {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+a.json-toggle:focus {
+  outline: none;
+}
+a.json-toggle:before {
+  content: "\25B6"; /* left arrow */
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  color: #d9d9d9;
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  font-size: 10px;
+  left: -1.5em;
+}
+a.json-toggle.collapsed:before {
+  content: "\25B6"; /* left arrow */
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  font-size: 10px;
+}
+
+/* Collapsable placeholder links */
+a.json-placeholder {
+  color: #aaa;
+  padding: 0 1em;
+  text-decoration: none;
+}
+a.json-placeholder:hover {
+  text-decoration: underline;
+}
