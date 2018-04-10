@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  <!--  Meta  -->
-  <meta charset="UTF-8" />
-  <title>Project</title>
-  
-  <!--  Styles  -->
-  <link rel="stylesheet" href="styles/index.processed.css">
-  
-</head>
-  <body>
-  
-    <h1>Project</h1>
-
-    <div id="doggies"></div>
-    <div id="kitties"></div>
-    
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="dogs.js"></script>
-    <script src="index.js"></script>
-  </body>
+   <head>
+      <!--  Meta  -->
+      <meta charset="UTF-8" />
+      <title>Project</title>
+      <!--  Styles  -->
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <h1>Google Maps API Geocoding</h1>
+               <div class="card"> 
+                  <strong>Don't just use this as is.  Get an API Key!</strong>
+                  <br>
+                  <a href="https://developers.google.com/maps/documentation/geocoding/get-api-key"> Get an API Key </a><br>
+                  <a href="https://developers.google.com/maps/documentation/geocoding/intro">Google Geocoding API </a>  
+               </div>
+               <div id="result" class="card"></div>
+            </div>
+         </div>
+      </div>
+      <!-- Scripts -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="projectapp.conventions.js"></script>
+   </body>
 </html>
